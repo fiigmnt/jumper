@@ -1,0 +1,16 @@
+{
+  "name": "jumper",
+  "version": "0.1.0",
+  "description": "JUMP discord bot",
+  "main": "index.js",
+  "engines": {
+    "node": "16.x"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^13.3.1",
+    "dotenv": "^15.0.0"
+  }
+}
