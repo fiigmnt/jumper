@@ -38,7 +38,7 @@ client.on("messageReactionAdd", async (reaction, user) => {
       return (
         channelIds.includes(channelId) &&
         _emoji.id === "908201130192953384" &&
-        count > 2
+        count === 2
       );
     };
 
